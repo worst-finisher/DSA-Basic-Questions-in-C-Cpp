@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int n,sum=0,count;
+    cin>>n;
+    count=1;
+    do
+    {
+        sum=sum+count;
+        count++;
+    }
+    while(count<=n);
+    cout<<"sum = "<<sum;
+    
+    return 0;
+}
