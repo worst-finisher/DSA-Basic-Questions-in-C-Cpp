@@ -1,0 +1,20 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int savings;
+    cin>>savings;
+    if(savings>10000)
+    {
+        cout<<"honey";
+    }
+    else if (savings>5000)
+    {
+        cout<<"pooh";
+    }
+    else
+    {
+        cout<<"friends";
+    }
+    return 0; 
+}
