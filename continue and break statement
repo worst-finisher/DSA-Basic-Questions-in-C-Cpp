@@ -1,0 +1,23 @@
+#include<iostream>
+using namespace  std;
+int main()
+{
+    int i;
+    for(i=1;i<=1000;i++)
+    {
+        if(i%3==0)
+        {
+            continue;
+        }
+        else
+        {
+            cout<<i<<endl;
+        }
+        if(i>=500)
+        {
+            break;
+        }
+    }
+    
+    return 0;
+}
