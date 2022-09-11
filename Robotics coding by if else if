@@ -1,0 +1,28 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    char button,a,b,c,d;
+    cin>>button;
+    if(button=='a')
+    {
+        cout<<"Hello Brother";
+    }
+    else if(button=='b')
+    {
+        cout<<"Hii Brother";
+    }
+    else if(button=='c')
+    {
+        cout<<"Kem Chho Bhaya";
+    }
+    else if(button=='d')
+    {
+        cout<<"Namasate Bhaiya";
+    }
+    else
+    {
+        cout<<"Learning On The Way";
+    }
+    return 0;
+}
