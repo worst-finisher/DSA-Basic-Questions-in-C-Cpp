@@ -1,5 +1,5 @@
 #include<iostream>
-using namespace std;
+using namespace  std;
 int main()
 {
     int a,b,c;
@@ -8,27 +8,28 @@ int main()
     {
         if(a>c)
         {
-            cout<<"a is greater";
+            cout<<"a greater = "<<a;
         }
         else
         {
-            cout<<"c greater";
+            cout<<"c greater = "<<c;
         }
     }
     else if(b>a)
     {
         if(b>c)
         {
-            cout<<"b greater";
+            cout<<"b greater = "<<b;
         }
         else
         {
-            cout<<"c greater";
+            cout<<"c greater = "<<c;
         }
     }
     else
     {
-        cout<<"c is greater";
+        cout<<"c greater = "<<c;
     }
-    return 0; 
+    
+    return 0;
 }
