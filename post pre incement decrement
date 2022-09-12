@@ -1,0 +1,14 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    
+    int i=10,j=20,k;
+      //10  //21  //12  //21
+    k=i++ + ++j - ++i + j++;
+    cout<<i<<endl;//12
+    cout<<j<<endl;//22
+    cout<<k<<endl;//40
+    
+    return 0;
+}
