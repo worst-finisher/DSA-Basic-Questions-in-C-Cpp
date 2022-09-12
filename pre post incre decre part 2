@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    
+   int i=20,j=50,k=100,calculation;
+   
+               //20   49   21     48    101   19   49    19    49    101
+   calculation=i++ - --j + i-- - --j + ++k - --i - ++j + i++ - j-- + k--;
+   
+   cout<<"i = "<<i<<endl;//20
+   cout<<"j = "<<j<<endl;//48
+   cout<<"k = "<<k<<endl;//100
+   cout<<"calculation = "<<calculation<<endl;//
+   
+    return 0;
+}
