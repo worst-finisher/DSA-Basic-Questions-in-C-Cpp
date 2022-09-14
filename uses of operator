@@ -1,0 +1,14 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a,b;
+    cin>>a>>b;
+    
+    cout<<"during addition the value will be = "<<(a+=b)<<endl;
+    cout<<"during subtraction the value will be = "<<(a-=b)<<endl;
+    cout<<"during multiplication the value will be = "<<(a*=b)<<endl;
+    cout<<"during division the value will be = "<<(a%=b)<<endl;
+    
+    return 0;
+}
